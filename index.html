@@ -7,10 +7,14 @@
       <a-assets>
         <a-asset-item id="candlestick_model" src="models/CandleStickAndHolder.glb"></a-aset-item>
         <a-asset-item id="matchbox_model" src="models/MatchBox.glb"></a-asset-item>
+        <a-asset-item id="matchstick_model" src="models/MatchStick.glb"></a-asset-item>
       </a-assets>
       <a-entity id="positioning-entity" position="0 1 -0.6">
         <a-gltf-model src="#candlestick_model" position="0.1 0 0"></a-gltf-model>
         <a-gltf-model src="#matchbox_model" position="-0.1 0 0" rotation="0 60 0"></a-gltf-model>
+        <a-gltf-model src="#matchstick_model" position="0 0 0" rotation="0 80 0"></a-gltf-model>
+        <a-gltf-model src="#matchstick_model" position="0 0 0.06" rotation="0 42 0"></a-gltf-model>
+        
         <a-cone id="candle__flame" position="0.1 0.196 0" color="yellow" material="color: #ffca00; emissive: #fec700" geometry="height: 0.46; radiusBottom: 0.05; radiusTop: 0" scale="0.1 0.1 0.1"></a-cone>
         <a-light type="point" position="0.1 0.2 0" light="color: #fff995"></a-light>
         <a-light type="ambient" light="color: #fff995; intensity: 0.2"></a-light>
