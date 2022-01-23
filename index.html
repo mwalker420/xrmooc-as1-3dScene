@@ -3,7 +3,8 @@
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene ">
+      <a-entity scale="0.1 0.1 0.1" position="0 1.5 0">
       <a-entity id="matchBox" position="-1 0.1 -4" rotation="0 -20 0">
         <a-box
           id="matchbox__exterior"
@@ -98,6 +99,7 @@
         color="#a38f6e"
       ></a-plane>
       <a-sky color="#000"></a-sky>
+    </a-entity>
     </a-scene>
   </body>
 </html>
